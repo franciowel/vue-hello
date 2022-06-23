@@ -5,7 +5,8 @@ var app = new Vue(
     {
         el: '#root',
         data : {
-            title : 'hello VueJS'
+            titlePage : 'hello VueJS',
+            imgTest: 'https://unsplash.it/300/300?image='
         }
     }
 )

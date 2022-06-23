@@ -1,0 +1,29 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMONS */
+.container{
+    width: 65%;
+    margin: 0 auto;
+}
+
+/* TITLE */
+h1{
+    text-align: center;
+    margin-top: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* IMAGE */
+.img-contain{
+display: flex;
+justify-content: center;
+}
+
+.img-contain img{
+    border-radius: 50%;
+}

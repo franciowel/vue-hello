@@ -6,7 +6,10 @@ var app = new Vue(
         el: '#root',
         data : {
             titlePage : 'hello VueJS',
-            imgTest: 'https://unsplash.it/300/300?image='
+            image: {
+                imgSrc : 'https://unsplash.it/300/300?image=',
+                imgAlt : 'Foto pagina'
+            } 
         }
     }
 )
